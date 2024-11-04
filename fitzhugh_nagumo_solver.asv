@@ -8,6 +8,7 @@ I = @(t) sin(t);
 
 t0 = 0;
 tf = 10;
+ts = linspace(t0, tf, )
 tspan = [t0,tf];
 
 IV = [0;0];
@@ -25,4 +26,4 @@ ylabel('Voltage, V');
 set(gca,'FontSize',16);
 
 figure
-plot(v(:, 1), v(:, 2))
+plot3()
